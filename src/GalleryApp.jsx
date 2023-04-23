@@ -14,8 +14,8 @@ const GalleryApp = () => {
    <div className=" text-center py-5 mt-5">
   <h3 className='text-white display-3'>Stunning free images & royality free stock</h3>
 <h4 className='text-white mb-3 p-2'> over 2.3 millon images in Gallery app is simple, modern, light and fast photo gallery and picture manager app for viewing and organizing your photos and videos.</h4>
-    <input type='search' className=' form-control'placeholder='Search...' value={imageName} onChange={(e)=>setImageName(e.target.value)}/> <br /><br />
-   <button className='btn btn-primary  btn-lg 'onClick={()=> imageName && navigate(`/images/${imageName}`)}>Search</button>
+    <input type='search' className='form-control' placeholder='Search...' value={imageName} onChange={(e)=>setImageName(e.target.value)}/> <br /><br />
+   <button className='btn btn-primary btn-lg  'onClick={()=> imageName && navigate(`/images/${imageName}`)}>Search</button>
 
    </div>
 
